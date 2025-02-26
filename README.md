@@ -6,19 +6,26 @@
 
 - Dockerがインストールされていること
 
-### 1. コンテナの起動
+### 1. リポジトリのクローン
+
+```bash
+git clone git@github.com:<username>/test.grpc-communication.git test_grpc-communication
+cd test_grpc-communication
+```
+
+### 2. コンテナの起動
 
 ```bash
 docker compose up -d
 ```
 
-### 2. コンテナにログイン
+### 3. コンテナにログイン
 
 ```bash
 docker compose exec -it src bash
 ```
 
-### 3. サーバーの起動
+### 4. サーバーの起動
 
 ```bash
 cd /go/src/cmd/server
