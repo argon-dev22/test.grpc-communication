@@ -32,3 +32,9 @@ cd /go/src/cmd/server
 go run main.go
 ```
 
+### 5. クライアントの起動
+
+```bash
+cd /go/src/cmd/client
+go run main.go
+```
